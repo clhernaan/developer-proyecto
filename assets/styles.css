@@ -131,7 +131,7 @@ main {
 .hero-info p {
   font-size: 14px;
   width: 70%;
-  color: var(--bg-white);
+  color: var(--btn-lg);
 }
 
 .hero-info span {
@@ -256,4 +256,48 @@ main {
   margin: auto;
   background-color: #3e3e3e87;
   border-radius: 1rem;
+}
+
+#Cartas {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  margin: 10px;
+}
+.card-uno {
+  display: flex;
+
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: aqua;
+  height: 400px;
+  width: 250px;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-image: url(/assets/img/hero/aekwondo-girl3.jpeg);
+}
+
+.card-dos {
+  display: flex;
+
+  border-radius: 15px;
+  background-color: aqua;
+  height: 400px;
+  width: 250px;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-image: url(/assets/img/hero/taekwondo2.jpeg);
+}
+
+.card-tres {
+  display: flex;
+
+  border-radius: 15px;
+  background-color: aqua;
+  height: 400px;
+  width: 250px;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-image: url(/assets/img/hero/HD-wallpaper-taekwondo-girl-5-by-blackguard-saracen-taekwondo-girl-martial-arts-women-taekwondo-girl-karate.jpeg);
 }
