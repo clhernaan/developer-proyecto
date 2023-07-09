@@ -33,7 +33,7 @@
 
 /*  =========== HEADER ===========  */
 header {
-  background: #0f152538;
+  background: #0f15259e;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -99,6 +99,7 @@ main {
   align-items: center;
   justify-content: center;
   width: 100%;
+
   color: white;
 }
 
@@ -211,53 +212,48 @@ main {
   color: var(--text-gray);
 }
 
-.hero-card-price {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-}
-
 .about-text {
   width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: center;
-  padding: 30px 50px;
+  padding: 70px 50px;
   gap: 20px;
+  font-size: small;
 }
 
 .container {
   margin: auto;
+
   width: 1200px;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: center;
   flex-wrap: wrap;
+  font-size: small;
 }
 
 #about {
-  width: 400px;
+  width: 800px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
   background-color: #3e3e3e87;
   border-radius: 1rem;
+  border: 5px solid #000000;
+  float: left;
+  margin: 10px;
+  transition: margin 0.5s ease-out;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
 }
-
-#about {
-  width: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  background-color: #3e3e3e87;
-  border-radius: 1rem;
+#about:hover {
+  margin-top: 4px;
 }
-
 #Cartas {
   display: flex;
   justify-content: center;
@@ -276,6 +272,13 @@ main {
   margin-bottom: 15px;
   background-size: cover;
   background-image: url(/assets/img/hero/aekwondo-girl3.jpeg);
+  border: 5px solid #2c57b4;
+  float: left;
+  margin: 10px;
+  transition: margin 0.5s ease-out;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
 }
 
 .card-dos {
@@ -288,6 +291,13 @@ main {
   margin-bottom: 15px;
   background-size: cover;
   background-image: url(/assets/img/hero/taekwondo2.jpeg);
+  border: 5px solid #2c57b4;
+  float: left;
+  margin: 10px;
+  transition: margin 0.5s ease-out;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
 }
 
 .card-tres {
@@ -300,4 +310,51 @@ main {
   margin-bottom: 15px;
   background-size: cover;
   background-image: url(/assets/img/hero/HD-wallpaper-taekwondo-girl-5-by-blackguard-saracen-taekwondo-girl-martial-arts-women-taekwondo-girl-karate.jpeg);
+  border: 5px solid #2c57b4;
+  float: left;
+  margin: 10px;
+  transition: margin 0.5s ease-out;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+.card-uno:hover {
+  margin-top: 4px;
+}
+
+.card-dos:hover {
+  margin-top: 4px;
+}
+
+.card-tres:hover {
+  margin-top: 4px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.developer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #050506;
+  font-size: 12px;
+  gap: 2rem;
+}
+
+#Btn {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  align-items: center;
+  background-color: #1e50ff;
+  gap: 20px;
+  width: 200px;
 }
