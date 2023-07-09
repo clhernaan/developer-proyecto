@@ -156,8 +156,8 @@ main {
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 
@@ -179,6 +179,7 @@ main {
   white-space: normal;
   overflow: center;
   text-overflow: ellipsis;
+  cursor: pointer;
 }
 
 .hero-card-top span {
@@ -188,31 +189,15 @@ main {
   font-size: 14px;
 }
 
-.hero-card-bottom {
-  display: flex;
-  justify-content: space-between;
-}
-
-.hero-card-creator {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
 .hero-card-creator img {
   height: 60px;
   width: 60px;
 }
 
 /* CAMBIAR A PSEUDOCLASE P */
-.creator-info span,
-.hero-card-price p {
-  font-size: 12px;
-  font-weight: 300;
-  color: var(--text-gray);
-}
 
 .about-text {
+  cursor: pointer;
   width: auto;
   display: flex;
   justify-content: center;
@@ -225,7 +210,7 @@ main {
 
 .container {
   margin: auto;
-
+  cursor: pointer;
   width: 1200px;
   display: flex;
   align-items: center;
@@ -233,6 +218,7 @@ main {
   flex-direction: center;
   flex-wrap: wrap;
   font-size: small;
+  cursor: pointer;
 }
 
 #about {
@@ -250,7 +236,9 @@ main {
   -webkit-transition: margin 0.5s ease-out;
   -moz-transition: margin 0.5s ease-out;
   -o-transition: margin 0.5s ease-out;
+  cursor: pointer;
 }
+
 #about:hover {
   margin-top: 4px;
 }
@@ -263,10 +251,10 @@ main {
 }
 .card-uno {
   display: flex;
-
+  cursor: pointer;
   border-radius: 15px;
   box-sizing: border-box;
-  background-color: aqua;
+
   height: 400px;
   width: 250px;
   margin-bottom: 15px;
@@ -275,17 +263,17 @@ main {
   border: 5px solid #2c57b4;
   float: left;
   margin: 10px;
-  transition: margin 0.5s ease-out;
-  -webkit-transition: margin 0.5s ease-out;
-  -moz-transition: margin 0.5s ease-out;
-  -o-transition: margin 0.5s ease-out;
+  transition: margin 0.1s ease-out;
+  -webkit-transition: margin 0.1s ease-out;
+  -moz-transition: margin 0.1s ease-out;
+  -o-transition: margin 0.1s ease-out;
 }
 
 .card-dos {
   display: flex;
-
+  cursor: pointer;
   border-radius: 15px;
-  background-color: aqua;
+
   height: 400px;
   width: 250px;
   margin-bottom: 15px;
@@ -294,17 +282,17 @@ main {
   border: 5px solid #2c57b4;
   float: left;
   margin: 10px;
-  transition: margin 0.5s ease-out;
-  -webkit-transition: margin 0.5s ease-out;
-  -moz-transition: margin 0.5s ease-out;
-  -o-transition: margin 0.5s ease-out;
+  transition: margin 0.1s ease-out;
+  -webkit-transition: margin 0.1s ease-out;
+  -moz-transition: margin 0.1s ease-out;
+  -o-transition: margin 0.1s ease-out;
 }
 
 .card-tres {
   display: flex;
-
+  cursor: pointer;
   border-radius: 15px;
-  background-color: aqua;
+
   height: 400px;
   width: 250px;
   margin-bottom: 15px;
@@ -313,10 +301,10 @@ main {
   border: 5px solid #2c57b4;
   float: left;
   margin: 10px;
-  transition: margin 0.5s ease-out;
-  -webkit-transition: margin 0.5s ease-out;
-  -moz-transition: margin 0.5s ease-out;
-  -o-transition: margin 0.5s ease-out;
+  transition: margin 0.1s ease-out;
+  -webkit-transition: margin 0.1s ease-out;
+  -moz-transition: margin 0.1s ease-out;
+  -o-transition: margin 0.1s ease-out;
 }
 
 .card-uno:hover {
